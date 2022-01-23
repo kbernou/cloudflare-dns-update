@@ -15,7 +15,6 @@ import sys
 from json import dumps
 from datetime import datetime
 
-# TODO: this can probably be handled a bit better
 if len(sys.argv) < 3:
     print("Usage: python cloudflare.py <zone_id> <token>")
     exit()
